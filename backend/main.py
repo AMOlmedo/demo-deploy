@@ -19,10 +19,10 @@ def get_bd():
     finally:
         db.close()
        
-@app.get('/')   #un decorador ??  utilizado en la ruta base
+@app.get('/')   #un decorador? utilizado en la ruta base
 
 def root(): 
-    return 'Hola soy la API!! v1.3.0 '
+    return 'Hola soy la API!! v1.4'
 
 #para ejecutar la app se utiliza en cl:
 #  $uvicorn main:app --reload 

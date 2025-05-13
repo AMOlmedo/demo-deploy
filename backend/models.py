@@ -7,7 +7,10 @@ from database import Base
 # esto permite heredar de esta clase la estructura de la db
 
 class User(Base):
-    __tablename__ = "users"
+    __tablename__ = "clientes"
     id =Column(Integer, primary_key=True, index = True )
-    name = Column(String(30), index = True, unique=True)
-    password = Column(String(30), index =True)
+    nombre = Column(String(30), index = True, unique=True)
+    apellido = Column(String(30), index = True, unique=False)
+    direccion = Column(String(100), index = True, unique=False)
+    email = Column(String(30), index = True, unique=True)
+    
