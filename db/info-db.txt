@@ -1,0 +1,37 @@
+
+	INFO DE LA BASE DE DATOS
+
+mysql>show databases;
+
+mysql>create database demo;
+
+mysql>use demo;
+
+mysql>CREATE TABLE cliente (
+  orden INT PRIMARY KEY,
+  Nombre VARCHAR(50),
+  Apellido VARCHAR(50),
+  edad INT,
+  email VARCHAR(50),
+  Direccion VARCHAR(100)
+);
+
+
+mysql> describe cliente;
++-----------+--------------+------+-----+---------+-------+
+| Field     | Type         | Null | Key | Default | Extra |
++-----------+--------------+------+-----+---------+-------+
+| orden     | int          | NO   | PRI | NULL    |       |
+| Nombre    | varchar(50)  | YES  |     | NULL    |       |
+| Apellido  | varchar(50)  | YES  |     | NULL    |       |
+| edad      | int          | YES  |     | NULL    |       |
+| email     | varchar(50)  | YES  |     | NULL    |       |
+| Direccion | varchar(100) | YES  |     | NULL    |       |
++-----------+--------------+------+-----+---------+-------+
+6 rows in set (0.090 sec)
+
+mysql>
+
+mysql>
+
+
