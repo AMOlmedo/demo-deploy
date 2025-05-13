@@ -1,0 +1,20 @@
+
+LISTADO DE TAREAS A REALIZAR
+
+Aquí hay una lista de las tareas que debes hacer para crear una aplicación CRUD con React, FastAPI y MySQL:
+1 -Configurar el backend con FastAPI.
+	Define los modelos de datos con Pydantic.
+	Crea las rutas para las operaciones CRUD (Crear, Leer, Actualizar, Borrar).
+	Conecta FastAPI a la base de datos MySQL usando una librería como mysql-connector-python o PyMySQL.
+2 - Configurar el frontend con React.
+	Crea los componentes para la interfaz de usuario.
+	Implementa la lógica para interactuar con la API de FastAPI.
+	Maneja el estado de la aplicación.
+3 - Conectar el frontend y el backend.
+	Realiza peticiones HTTP desde React a la API de FastAPI.
+	Muestra los datos recibidos de la API en la interfaz de usuario.
+4 - Crear la base de datos MySQL.
+	Define el esquema de la base de datos.
+	Crea las tablas necesarias.
+
+

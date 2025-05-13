@@ -1,0 +1,9 @@
+
+	PROCEDIMIENDO DE CREACION DEL PROYECTO 
+
+1- CREACION DEL ENTORNO BACKEND:
+
+	1- $python3 -m venv venv
+	2- $sourse venv/bin/activate
+	3- (venv)$pip install FastAPI
+	4- (venv)$
